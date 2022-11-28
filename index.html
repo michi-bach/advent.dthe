@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Christmas Calendar</title>
+  <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./assets/favicon-16x16.png" sizes="16x16" />
+  <link rel="stylesheet" href="styles.css"> 
+  
+  <script type="text/javascript" src="js/checkday.js"></script>
+
+</head>
+<body>
+
+  <div class="calendar-grid">
+    <div class="title">
+      <!-- <h1><span class="title-1">Theragnostik</span><span class="title-2">Weihnachts-</span><span class="title-3">kalender</span></h1> -->
+	  <h1><span class="title-1">Theragnostik </span><br><span class="title-2">Adventskalender</span></h1>
+    </div>
+    <div class="day day-1">
+      <label>
+        <input type="checkbox" id='t01' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">1</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t01a'>	
+			<img class='img' src="img/01_patho/3_FISH_Pathologie.jpg" />
+        </div>
+        <div class="title-container"><a href="day01/index.html" target="_blank" title="read more">Die Pathologie ...read more...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-2">
+      <label>
+        <input type="checkbox" id='t02' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">2</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t02a'>	
+			<img class='img' src="img/02_mbio/image0123_ov.jpg"" />
+        </div>
+        <div class="title-container"><a href="day02/index.html" target="_blank" title="">Mikrobiologie ...read more...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-3">
+      <label>
+        <input type="checkbox" id='t03' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">3</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t03a'>	
+			<img class='img' src="img/giphy_candle.gif" />
+        </div>
+        <div class="title-container"><a href="day03/index.html" target="_blank" title="">Das HR-Team ... read more ...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-4">
+      <label>
+        <input type="checkbox" id='t04' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">4</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t04a'>	
+			<img class='img' src="img/Neue_Evidenz_zur Patientenvisite_2022_ov.png" />
+        </div>
+        <div class="title-container"><a href="day04/index.html" target="_blank" title="">Medizinische Kommunikation ...read more...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-5">
+      <label>
+        <input type="checkbox" id='t05' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">5</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t05a'>	
+			<img class='img' src="img/Rezept_Vin_chaud.jpg" />
+        </div>
+        <div class="title-container"><a href="pdf/vin-chaud.pdf" target="_blank" title="Link to source code">Rezept: Vin chaud ...download...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-6">
+      <label>
+        <input type="checkbox" id='t06' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">6</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t06a'>	
+			<img class='img' src="img/Rezept_Basler Brunsli.jpg" />
+        </div>
+        <div class="title-container"><a href="pdf/basler-brunsli.pdf" target="_blank" title="Link to source code">Rezept: Basler Brunsli ...download...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-7">
+      <label>
+        <input type="checkbox" id='t07' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">7</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t07a'>	
+			<img class='img' src="img/Rezept_Apfelpunsch_alkoholfrei.jpg" />
+        </div>
+        <div class="title-container"><a href="pdf/apfelpunsch_alkoholfrei.pdf"target="_blank" title="Link to source code">Rezept: Apfelpunsch ...download...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-8">
+      <label>
+        <input type="checkbox" id='t08' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">8</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t08a'>	
+			<img class='img' src="img/pngegg_crop.png" />
+        </div>
+        <div class="title-container"><a href="day08/index.html" target="_blank" title="">Alles grün: Spital-Pharmazie ...read more...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-9">
+      <label>
+        <input type="checkbox" id='t09' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">9</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t09a'>	
+			<img class='img' src="img/09_IMG_5109_crop.jpg"" />
+        </div>
+        <div class="title-container"><a href="day09/index.html" target="_blank" title="Link to source code">Team der Toxikologie ...read more...</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-10">
+      <label>
+        <input type="checkbox" id='t10' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">10</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t10a'>	
+			<img class='img' src="img/loewenzahn_crop.jpg" />
+        </div>
+        <div class="title-container"><a href="day10/index.html" target="_blank" title="">Entspannungsübung ...read more...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-11">
+      <label>
+        <input type="checkbox" id='t11' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">11</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t11a'>	
+			<img class='img' src="img/vw_bus_crop.jpg" />
+        </div>
+        <div class="title-container"><a href="day11/index.html" target="_blank" title="Link to source code">Weihnachtsmärkte ...read more...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-12">
+      <label>
+        <input type="checkbox" id='t12' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">12</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t12a'>	
+			<img class='img' src="img/Onkologie_Bild_1_crop.jpg" />
+        </div>
+        <div class="title-container"><a href="day12/index.html" target="_blank" title="">Zelltherapie ...read more...</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-13">
+      <label>
+        <input type="checkbox" id='t13' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">13</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t13a'>	
+			<img class='img' src="img/Onkologie_Bild_2_crop.jpg" />
+        </div>
+        <div class="title-container"><a href="day13/index.html" target="_blank" title="">Umzug ...read more...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-14">
+      <label>
+        <input type="checkbox" id='t14' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">14</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t14a'>	
+			<img class='img' src="img/Haematologie_Video_crop.jpg" />
+        </div>
+        <div class="title-container"><a href="day14/index.html" target="_blank" title="">Schnelle Diagnose ...read more...</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-15">
+      <label>
+        <input type="checkbox" id='t15' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">15</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t15a'>	
+			<img class='img' src="img/Haematologie_visite_corona_crop.jpg" />
+        </div>
+        <div class="title-container"><a href="day15/index.html" target="_blank" title="Link to source code">Visite Corona ...read more... </a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-16">
+      <label>
+        <input type="checkbox" id='t16' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">16</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t16a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-17">
+      <label>
+        <input type="checkbox" id='t17' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">17</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t17a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-18">
+      <label>
+        <input type="checkbox" id='t18' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">18</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t18a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="day01/index.html" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-19">
+      <label>
+        <input type="checkbox" id='t19' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">19</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t19a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-20">
+      <label>
+        <input type="checkbox" id='t20' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">20</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t20a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="day01/index.html" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-21">
+      <label>
+        <input type="checkbox" id='t21' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">21</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t21a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-22">
+      <label>
+        <input type="checkbox" id='t22' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">22</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t22a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-23">
+      <label>
+        <input type="checkbox" id='t23' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">23</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t23a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-24">
+      <label>
+        <input type="checkbox" id='t24' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">24</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t24a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+  </div>
+  <footer>
+    <!-- <div><span class="footer-info">i</span> -->
+      <!-- <div>Follow me on Twitter: <a href="https://twitter.com/FullStackMaker" target="_blank">@FullStackMaker</a></div> -->
+    <!-- </div> -->
+  </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.ddimgtooltip{
+/*box-shadow: 3px 3px 5px #818181; /*shadow for CSS3 capable browsers.
+-webkit-box-shadow: 3px 3px 5px #818181;
+-moz-box-shadow: 3px 3px 5px #818181;
+*/
+display:none;
+position:absolute;
+padding: 4px;
+max-width: 500px;
+}
+  
+* {
+    font-family: 'Archivo', serif;
+    font-size: 16px;
+    color: #47307c;
+    font-weight: normal;
+    line-height: 1.3;
+  }
+  
+img {
+border: 0px;
+}
