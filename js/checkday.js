@@ -7,7 +7,7 @@ function checkday(id) {
   //alert(id.slice(1));
   
 //    if (cbox.checked == true && parseInt(id.slice(1)) <= currentDate.getDate() ){
-    if (cbox.checked == true && parseInt(id.slice(1)) <= 10 ){
+    if (cbox.checked == true && parseInt(id.slice(1)) <= 0 ){
 		vis.style.opacity = 1;
 		vis.style.transform = 'scale(1.5,1.5)';
 	} else {
