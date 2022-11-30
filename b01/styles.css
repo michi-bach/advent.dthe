@@ -1,0 +1,67 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"); */
+/* @import url("https://csschristmascalendar.com/assets/freeserif/font.css"); */
+/* @import url("https://fonts.googleapis.com/css?family=Archivo"); */
+
+
+/* archivo-regular - latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/archivo-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/archivo-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/archivo-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/archivo-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/archivo-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/archivo-v18-latin-regular.svg#Archivo') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+  background: url(../img/bkg_2.jpg) repeat top center #FFFFFF;
+  background-size: cover;
+  font-family: 'Archivo';
+  /* font-family: 'Mountains of Christmas' */
+  display: flex;
+  flex-direction: column;
+
+}
+
+.img {
+	text-align: left;
+	float: left;
+	width: 25vw;
+	margin: 15px 15px 7px 15px;
+	font-size: 18px;
+}
+
+.txt {
+	margin: 15px 15px 30px 15px;
+	float: left;
+	width: 35vw;
+	font-size: 18px;
+	max-width: 1000px;
+	line-height:150%
+}
+
+
+@media only screen and (max-width: 576px) {
+  .img {
+	text-align: left;
+	float: none;
+	width: 80vw;
+	margin: 15px 15px 7px 15px;
+	font-size: 18px;
+	}
+	
+  .txt {
+	margin: 15px 15px 30px 15px;
+	width: 80vw;
+	font-size: 18px;
+	max-width: 1000px;
+	line-height:150%
+	}
+}
+
