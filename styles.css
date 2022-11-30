@@ -16,12 +16,54 @@
 
 
 body {
-  background: url(img/annie-spratt-zh7GEuORbUw-unsplash_crop.jpg) repeat top center #8ac1d6;
+  background: url(img/annie-spratt-zh7GEuORbUw-unsplash_crop.jpg) repeat top center #195C65;
   background-size: cover;
   font-family: 'Archivo';
   /* font-family: 'Mountains of Christmas', cursive; */
   display: flex;
   flex-direction: column;
+}
+
+
+
+.logo {
+  display: block;
+  position: absolute;
+  /* top: 8px; */
+  /* right: 16px; */
+  left: 1vw;
+  top: 1vw;
+  position-anchor: 100% 100%;
+  height: auto;
+  width: 20%;
+}
+.identifier {
+  display: inline-block;
+  /* position: absolute; */
+  left: 1vw;
+  bottom: 1vh;
+  /* position-anchor: 100% 100%; */
+  /* vertical-align: text-top; */
+  float: left;
+  height: 60px;
+  width: auto;
+  /* border-style: dashed; */
+}
+
+.impressum {
+  display: flex;
+  position: absolute;
+  right: 1vw;
+  height: 60px;
+  /* text-align: right; */
+  /* vertical-align: bottom; */
+  font-family: 'Archivo', serif;
+  font-size: 18px;
+  color: rgba(242, 240, 178, 1);
+  font-weight: normal;
+  /* border-style: dashed; */
+  align-items:end;
+  /* justify-content:center; */
 }
 
 
