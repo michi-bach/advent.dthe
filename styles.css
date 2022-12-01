@@ -36,6 +36,7 @@ body {
   position-anchor: 100% 100%;
   height: auto;
   width: 20%;
+  max-width:300px;
 }
 .identifier {
   display: inline-block;
