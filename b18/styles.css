@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/archivo-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/archivo-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/archivo-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/archivo-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/archivo-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/archivo-v18-latin-regular.svg#Archivo') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+  background: url(../img/bkg_2.jpg) repeat top center #FFFFFF;
+  background-size: cover;
+  font-family: 'Archivo';
+  display: flex;
+  flex-direction: column;
+
+}
+
+.img {
+	width: 300px;
+	margin: 15px 15px 7px 15px;
+}
+
+.txt {
+	margin: 15px 15px 30px 15px;
+	font-size: 18px;
+	width: 600px;
+	line-height:150%
+
+}
